@@ -44,6 +44,7 @@ function App() {
 		getCookbooks();
 	}, []);
 
+	/// change this or add another version of it for authors
 	const handleCreate = (newCookbook) => {
 		axios({
 			method: 'post',
@@ -58,6 +59,7 @@ function App() {
 		});
 	};
 
+	/// CHANGE this or add another version of it for authors
 	const handleUpdate = (updatedCookbook) => {
 		axios({
 			method: 'put',
