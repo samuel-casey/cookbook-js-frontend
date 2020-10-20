@@ -135,6 +135,7 @@ function App() {
 								{...rp}
 								label='create'
 								cookbook={emptyCookbook}
+								author={emptyAuthor}
 								handleSubmit={handleCreate}
 							/>
 						)}
